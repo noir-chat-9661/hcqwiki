@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<title>リダイレクト中</title>
+		<script type="text/javascript">
+			// SPAのための404リダイレクト
+			(function () {
+				var path = window.location.pathname;
+				var search = window.location.search;
+				if (path !== "/" && path !== "/404.html") {
+					window.localStorage.setItem("spa_path", path + search);
+				}
+				window.location.href = "/";
+			})();
+		</script>
+	</head>
+	<body>
+		Redirecting...
+	</body>
+</html>

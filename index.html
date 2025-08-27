@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wiki</title>
+		<script type="text/javascript">
+			// GitHub Pages SPA用のリダイレクト処理
+			(function () {
+				const redirectPath = window.localStorage.getItem("spa_path");
+				if (redirectPath) {
+					window.localStorage.removeItem("spa_path");
+					window.history.replaceState(null, null, redirectPath);
+				}
+			})();
+		</script>
+		<script type="module" crossorigin src="/assets/index-DDAz5sxY.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-70cBcC_E.css">
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
+</html>
