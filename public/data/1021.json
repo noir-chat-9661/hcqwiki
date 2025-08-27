@@ -1,0 +1,8 @@
+{
+	"id": "1021",
+	"title": "[緊急B] 妖精舞踏",
+	"content": "## 概要\n- **サポート**: 妖精チア (No.15097 お嬢様 / No.27356 🐈‍⬛)\n- **報酬**: 6500gold・黄金マテリアル×55\n- **敵構成**\n  - 薬オネ×2・クリオネ×3・アカオネ×1\n\n## キャラ構成\n- 剣士：3 (物攻魔石 開幕SP520以上)\n- 霊キャラ：1 (開幕SP420以上、守護霊召喚・ド根性を習得しているキャラ)\n\n## 流れ\n- 剣士：開幕根性岩\n- 霊キャラ：開幕根性守護\n\n## 攻略動画\n<iframe \nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/L9tRg1SDzLk\"\ntitle=\"妖精舞踏 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
+	"route": "/緊急クエスト/妖精舞踏",
+	"genres": ["緊急クエスト", "緊急B"],
+	"parentId": ["1000", "1002"]
+}
