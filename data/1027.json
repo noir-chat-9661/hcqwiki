@@ -1,0 +1,8 @@
+{
+	"id": "1027",
+	"title": "[緊急B] 森の探索",
+	"content": "## 概要\n- **サポート**: 伝杖迅雷チア (No.15091 上から来るぞ！気をつけろ / No.16762 凶兆の黒猫🐈‍⬛)\n- **報酬**: 7500gold・中級マテリアル×55\n- **敵構成**\n  - 1ステ：赤鬼×1・天狗丸×1\n  - 2ステ：赤鬼×1・クリオネ×1\n  - 3ステ：強い赤鬼×1\n\n## キャラ構成\n- 風忍：1 (手裏剣か攻速2以上の護石 即タゲしないなら開幕SP480以上)\n- 自由枠︰3\n\n## 流れ\n- 1ステの開幕に忍者が下のどちらかをする\n  - 開幕天狗丸即タゲ風\n  - 開幕分風\n- あとは自由だが、雷がすべての敵に当たるようにすること。\n\n## 攻略動画\n<iframe \nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/rRvymjV6zJI\"\ntitle=\"森の探索 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
+	"route": "/緊急クエスト/森の探索",
+	"genres": ["緊急クエスト", "緊急B"],
+	"parentId": ["1000", "1002"]
+}
