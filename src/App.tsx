@@ -3,11 +3,25 @@ import Home from "@/pages/home";
 import Article from "@/pages/article";
 import NotFound from "@/pages/404";
 import { useSearchParams } from "react-router-dom";
-import { articles } from "../public/data";
+import { useEffect, useState } from "react";
+import type { ArticleMap } from "@/types/article";
+import { loadArticleIndex } from "@/lib/utils";
 
 function Root() {
 	const [searchParams] = useSearchParams();
+	const [articles, setArticles] = useState<ArticleMap[]>([]);
+	const [isLoading, setIsLoading] = useState(true);
 	const id = searchParams.get("p");
+
+	useEffect(() => {
+		loadArticleIndex()
+			.then(setArticles)
+			.finally(() => setIsLoading(false));
+	}, []);
+
+	if (isLoading) {
+		return <div>読み込み中...</div>;
+	}
 
 	// idが指定されていて、該当記事が存在する場合は記事を表示
 	if (id && articles.find((a) => a.id === id)) {

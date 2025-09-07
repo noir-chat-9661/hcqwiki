@@ -1,7 +1,7 @@
 {
 	"id": "1024",
 	"title": "[緊急B] 平原の疾走",
-	"content": "## 概要\n- **サポート**: 平原諸天 (No.15108 しずき(💢'ω') / No.27356 🐈‍⬛)\n- **報酬**: 7000gold・下級マテリアル×55\n- **敵構成**\n  - 1ステ：岩亀×1・ザコイチ×3\n  - 2ステ：ニョロニョロ×4・ビリビリ×2\n  - 3ステ：岩亀×1・ビリビリ×1・アカオネ×2・クリオネ×1\n\n## キャラ構成\n- チア：1 (技術オーブ SP44攻速4)\n- 元気：1 (開幕SP800以上)\n- 魔石僧：1 (攻撃護石)\n- 火力：1 (魔推奨)\n※僧は適当な特技2の僧で妥協してもok\n\n## 流れ\n- 1ステ\n  - チア：開幕雷羽→以降岩亀タゲして雷連打\n  - 元気：開幕石茶→以降マジ茶連打\n  - 僧・火力：適当に範囲技などで処理\n- 2ステ\n  - チア：開幕渦石→以降渦ヒスポ連打\n  - 元気：開幕渦茶→以降マジ茶連打\n  - 僧・火力：適当に範囲技などで処理\n- 3ステ\n  - チア：開幕渦雷→以降雷連打\n  - 元気：開幕渦茶→以降マジ茶連打\n  - 僧・火力：適当に範囲技などで処理\n\n## 攻略動画\n<iframe \nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/7Bg2mUEC-rU\"\ntitle=\"平原の疾走 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
+	"content": "## 概要\n- **サポート**: 平原諸天 (No.15108 しずき(💢'ω') / No.27356 🐈‍⬛)\n- **報酬**: 7000gold・下級マテリアル×55\n- **敵構成**\n  - 1ステ：岩亀×1・ザコイチ×3\n  - 2ステ：ニョロニョロ×4・ビリビリ×2\n  - 3ステ：岩亀×1・ビリビリ×1・アカオネ×2・クリオネ×1\n\n## キャラ構成\n- チア：1 (技術オーブ SP44攻速4)\n- 元気：1 (開幕SP800以上)\n- 魔石僧：1 (攻撃護石)\n- 火力：1 (魔推奨)\n※僧は適当な特技2の僧で妥協してもok\n\n## 流れ\n- 1ステ\n  - チア：開幕雷羽→以降岩亀タゲして雷連打\n  - 元気：開幕石茶→以降マジ茶連打\n  - 僧・火力：適当に範囲技などで処理\n- 2ステ\n  - チア：開幕渦石→以降渦ヒスポ連打\n  - 元気：開幕渦茶→以降マジ茶連打\n  - 僧・火力：適当に範囲技などで処理\n- 3ステ\n  - チア：開幕渦雷→以降雷連打\n  - 元気：開幕渦茶→以降マジ茶連打\n  - 僧・火力：適当に範囲技などで処理\n\n## 攻略動画\n<iframe src=\"https://www.youtube.com/embed/7Bg2mUEC-rU\"\ntitle=\"平原の疾走 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
 	"route": "/緊急クエスト/平原の疾走",
 	"genres": ["緊急クエスト", "緊急B"],
 	"parentId": ["1000", "1002"]

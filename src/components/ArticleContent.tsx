@@ -5,12 +5,11 @@ import {
 	BreadcrumbItem,
 	BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import type { Article } from "@/types/article";
-import { articles } from "../../public/data";
+import type { Article, ArticleMap } from "@/types/article";
 import rehypeRaw from "rehype-raw";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { loadArticleContent } from "@/lib/utils";
+import { loadArticleContent, loadArticleIndex } from "@/lib/utils";
 
 interface ArticleContentProps {
 	article: Article;
@@ -18,6 +17,7 @@ interface ArticleContentProps {
 
 export function ArticleContent({ article: baseArticle }: ArticleContentProps) {
 	const [article, setArticle] = useState(baseArticle);
+	const [articles, setArticles] = useState<ArticleMap[]>([]);
 	const [isLoading, setIsLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
 
@@ -26,8 +26,12 @@ export function ArticleContent({ article: baseArticle }: ArticleContentProps) {
 			try {
 				setIsLoading(true);
 				setError(null);
-				const fullArticle = await loadArticleContent(baseArticle.id);
+				const [fullArticle, articleIndex] = await Promise.all([
+					loadArticleContent(baseArticle.id),
+					loadArticleIndex(),
+				]);
 				setArticle(fullArticle);
+				setArticles(articleIndex);
 			} catch (e) {
 				setError(
 					e instanceof Error
@@ -84,7 +88,6 @@ export function ArticleContent({ article: baseArticle }: ArticleContentProps) {
 			{article.genres && article.genres.length > 0 && (
 				<div className="flex gap-2 mb-4">
 					{article.genres.map((genre) => {
-						// このジャンルと同じタイトルの記事を探す
 						const matchingArticle = articles.find(
 							(a) => a.title === genre
 						);
@@ -135,8 +138,12 @@ export function ArticleContent({ article: baseArticle }: ArticleContentProps) {
 						</h3>
 					),
 					iframe: (props) => (
-						<div className="aspect-w-16 aspect-h-9 my-4">
-							<iframe {...props} allowFullScreen />
+						<div className="my-4 w-full md:w-[560px] mx-auto">
+							<iframe
+								{...props}
+								allowFullScreen
+								className="aspect-video w-full h-full rounded-lg border border-gray-300"
+							/>
 						</div>
 					),
 					p: ({ children }) => <p className="my-2">{children}</p>,

@@ -1,7 +1,7 @@
 {
 	"id": "1022",
 	"title": "[緊急B] 茂みの探索",
-	"content": "## 概要\n- **サポート**: 茂みの囮 (No.15108 しずき(💢'ω') / No.31368 ぺんちゃん☆)\n- **報酬**: 7000gold・下級マテリアル×55\n- **敵構成**\n  - 1ステ：ステージ1：ニョロニョロ×3\n  - 2ステ：ニョロニョロ×3\n  - 3ステ：酷いニョロニョロ×3\n\n## キャラ構成\n- 自由枠4\n\n## 流れ\n- 適当でOK\n- 全ステージ放置で可能。\n\n- **__技を撃つ場合、ウォークライ・煙幕の術を使用すると失敗する可能性があるため注意。__**\n- また、**__騎士の特技1も発動後に失敗する可能性があるため使わないこと。__**\n\n## 攻略動画\n<iframe \nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/Yi1lCYOVGsI\"\ntitle=\"茂みの探索 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
+	"content": "## 概要\n- **サポート**: 茂みの囮 (No.15108 しずき(💢'ω') / No.31368 ぺんちゃん☆)\n- **報酬**: 7000gold・下級マテリアル×55\n- **敵構成**\n  - 1ステ：ステージ1：ニョロニョロ×3\n  - 2ステ：ニョロニョロ×3\n  - 3ステ：酷いニョロニョロ×3\n\n## キャラ構成\n- 自由枠4\n\n## 流れ\n- 適当でOK\n- 全ステージ放置で可能。\n\n- **__技を撃つ場合、ウォークライ・煙幕の術を使用すると失敗する可能性があるため注意。__**\n- また、**__騎士の特技1も発動後に失敗する可能性があるため使わないこと。__**\n\n## 攻略動画\n<iframe src=\"https://www.youtube.com/embed/Yi1lCYOVGsI\"\ntitle=\"茂みの探索 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
 	"route": "/緊急クエスト/茂みの探索",
 	"genres": ["緊急クエスト", "緊急B"],
 	"parentId": ["1000", "1002"]
