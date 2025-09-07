@@ -1,7 +1,7 @@
 {
 	"id": "1028",
 	"title": "[緊急B] 妖怪集結",
-	"content": "## 概要\n- **サポート**: 迅ヲクラチア (No.15084 そぅ…！)\n- **報酬**: 7500gold・妖気マテリアル×55\n\n## 敵構成\n赤鬼×1・天狗丸×1・狐火×2\n\n## キャラ構成\n### 通常法\n- 魔石僧：1 (魔攻魔石 開幕SP600以上)\n- 自由枠：3\n\n毒罠はチアが祭りして消せばいいので、正直物攻魔石にしてもいい。\n\n### 雷ハメ法\n- チア：1 (オーブ 攻速12以上(※チアの素の攻速は9)、開幕SP680以上)\n- 元気：1 (開幕SP800以上)\n- 火力枠：2 (魔か剣士)\n\n## 流れ\n### 通常法\n- 魔石僧：天狗丸が毒罠を置いたらゼロ(魔攻魔石) / 適当な火力(物攻魔石)\n- 自由枠：適当に処理(最低1人は毒罠を処理できるようにすること)\n### 雷ハメ法\n- チア：開幕渦雷→以降雷連打\n- 元気：開幕渦茶→以降マジ茶連打\n- 火力枠：適当に処理\n\n## 攻略動画\n### 通常法\n準備中\n\n### 雷ハメ法\n<iframe \nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/QDXl453XMEs\"\ntitle=\"妖怪集結 雷ハメ法 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
+	"content": "## 概要\n- **サポート**: 迅ヲクラチア (No.15084 そぅ…！)\n- **報酬**: 7500gold・妖気マテリアル×55\n\n## 敵構成\n赤鬼×1・天狗丸×1・狐火×2\n\n## キャラ構成\n### 通常法\n- 魔石僧：1 (魔攻魔石 開幕SP600以上)\n- 自由枠：3\n\n毒罠はチアが祭りして消せばいいので、正直物攻魔石にしてもいい。\n\n### 雷ハメ法\n- チア：1 (オーブ 攻速12以上(※チアの素の攻速は9)、開幕SP680以上)\n- 元気：1 (開幕SP800以上)\n- 火力枠：2 (魔か剣士)\n\n## 流れ\n### 通常法\n- 魔石僧：天狗丸が毒罠を置いたらゼロ(魔攻魔石) / 適当な火力(物攻魔石)\n- 自由枠：適当に処理(最低1人は毒罠を処理できるようにすること)\n### 雷ハメ法\n- チア：開幕渦雷→以降雷連打\n- 元気：開幕渦茶→以降マジ茶連打\n- 火力枠：適当に処理\n\n## 攻略動画\n### 通常法\n準備中\n\n### 雷ハメ法\n<iframe src=\"https://www.youtube.com/embed/QDXl453XMEs\"\ntitle=\"妖怪集結 雷ハメ法 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
 	"route": "/緊急クエスト/妖怪集結",
 	"genres": ["緊急クエスト", "緊急B"],
 	"parentId": ["1000", "1002"]
