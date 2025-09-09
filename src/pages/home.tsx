@@ -25,7 +25,8 @@ export default function Home() {
 					</li>
 				</ul>
 				<h2 className="text-2xl font-bold my-4">記事</h2>
-				<Link to="/緊急クエスト" className="text-primary hover:underline">緊急クエスト一覧</Link>
+				<p><Link to="/周回キャラ" className="text-primary hover:underline">周回キャラ一覧</Link></p>
+				<p><Link to="/緊急クエスト" className="text-primary hover:underline">緊急クエスト一覧</Link></p>
 			</article>
 		</div>
 	);
