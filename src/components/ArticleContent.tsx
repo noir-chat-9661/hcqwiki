@@ -131,11 +131,18 @@ export function ArticleContent({ article: baseArticle }: ArticleContentProps) {
 						</h2>
 					),
 					h3: ({ children }) => (
-						<h3 className="text-xl font-bold mt-5 mb-2 text-primary">
+						<h3 className="text-xl font-bold mt-5 mb-3 text-primary">
 							<span className="bg-blue-100/80 px-3 py-1 rounded-lg">
 								{children}
 							</span>
 						</h3>
+					),
+					h4: ({ children }) => (
+						<h4 className="text-lg font-bold mt-5 mb-2 text-primary">
+							<span className="px-2 py-1 border-b-2 border-blue-300">
+								{children}
+							</span>
+						</h4>
 					),
 					iframe: (props) => (
 						<div className="my-4 w-full md:w-[560px] mx-auto">
@@ -157,10 +164,13 @@ export function ArticleContent({ article: baseArticle }: ArticleContentProps) {
 					a: ({ children, href }) => (
 						<Link
 							to={href || ""}
-							className="text-primary hover:underline"
+							className="hover:underline text-blue-800"
 						>
 							{children}
 						</Link>
+					),
+					blockquote: ({ children }) => (
+						<blockquote className="border-primary px-4 py-2 m-4 bg-primary/5 rounded-lg">{children}</blockquote>
 					),
 				}}
 			>
