@@ -25,8 +25,10 @@ export default function Home() {
 					</li>
 				</ul>
 				<h2 className="text-2xl font-bold my-4">記事</h2>
-				<p><Link to="/周回キャラ" className="text-primary hover:underline">周回キャラ一覧</Link></p>
-				<p><Link to="/緊急クエスト" className="text-primary hover:underline">緊急クエスト一覧</Link></p>
+				<ul className="list-disc list-inside text-center mx-auto w-2/3">
+				<li><Link to="/周回キャラ" className="text-primary hover:underline">周回キャラ一覧</Link></li>
+				<li><Link to="/緊急クエスト" className="text-primary hover:underline">緊急クエスト一覧</Link></li>
+				</ul>
 			</article>
 		</div>
 	);
