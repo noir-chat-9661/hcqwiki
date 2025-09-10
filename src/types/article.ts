@@ -13,4 +13,5 @@ export interface ArticleMap {
 	route: string;
 	parentId: string[]; // optional parent article id
 	genres: string[]; // optional array of genres
+	ogp?: string; // optional OGP description
 }
