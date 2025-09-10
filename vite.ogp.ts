@@ -18,17 +18,24 @@ const DEFAULT_TITLE = "HIMACHATQUEST Wiki";
 const DEFAULT_DESCRIPTION = "HIMACHATQUESTの非公式攻略Wiki";
 const DEFAULT_IMAGE = `${BASE_URL}/logo.png`;
 
+// 改行をOGP用にエスケープする
+function escapeDescription(desc: string): string {
+	return desc.replace(/\n/g, "&#10;");
+}
+
 export function ogpPlugin(): Plugin {
 	return {
 		name: "vite-plugin-ogp",
 		apply: "build",
 		async transformIndexHtml(html: string) {
 			try {
-				// OGPタグの生成
+				// OGPタグの生成（デフォルトの説明文に改行を含める）
 				const ogpTags = `
     <meta property="og:type" content="website" />
     <meta property="og:title" content="${DEFAULT_TITLE}" />
-    <meta property="og:description" content="${DEFAULT_DESCRIPTION}" />
+    <meta property="og:description" content="${escapeDescription(
+		DEFAULT_DESCRIPTION
+	)}" />
     <meta property="og:image" content="${DEFAULT_IMAGE}" />
     <meta property="og:url" content="${BASE_URL}" />
     <meta name="twitter:card" content="summary" />`;
@@ -53,27 +60,27 @@ export function ogpPlugin(): Plugin {
 				for (const article of articles) {
 					const htmlContent = `<!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>${article.title} - ${DEFAULT_TITLE}</title>
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="${article.title} - ${DEFAULT_TITLE}" />
-	<meta property="og:description" content="${
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${article.title} - ${DEFAULT_TITLE}</title>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="${article.title} - ${DEFAULT_TITLE}" />
+    <meta property="og:description" content="${escapeDescription(
 		article.ogp ?? DEFAULT_DESCRIPTION
-	}" />
-	<meta property="og:image" content="${DEFAULT_IMAGE}" />
-	<meta property="og:url" content="${BASE_URL}${article.route}" />
-	<meta name="twitter:card" content="summary" />
-	<script type="text/javascript">
-	(function () {
-		window.localStorage.setItem("spa_path", "${article.route}");
-		window.location.href = "/";
-	})();
-	</script>
+	)}" />
+    <meta property="og:image" content="${DEFAULT_IMAGE}" />
+    <meta property="og:url" content="${BASE_URL}${article.route}" />
+    <meta name="twitter:card" content="summary" />
+    <script type="text/javascript">
+      (function () {
+        window.localStorage.setItem("spa_path", "${article.route}");
+        window.location.href = "/";
+      })();
+    </script>
 </head>
 <body>
-	読み込み中...
+    読み込み中...
 </body>
 </html>`;
 
