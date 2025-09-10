@@ -1,8 +1,1 @@
-{
-	"id": "1025",
-	"title": "[緊急B] 燃えさかる妖狐",
-	"content": "## 概要\n- **サポート**: 妖狐チア (No.15084 そぅ…！)\n- **報酬**: 7000gold・妖気マテリアル×55\n- **敵構成**\n  - 狐火＋×6\n\n## キャラ構成\n- 囮:1 (攻撃速度13以上(※剣士の素の攻速は10)、開幕SP950以上)\n- 自由枠:3(剣士推奨)\n\n## 流れ\n- 囮：開幕根性ヲクラテレポヒスポ\n- 自由枠：適当に処理\n\n## 攻略動画\n<iframe src=\"https://www.youtube.com/embed/blrpx-aF05s\"\ntitle=\"燃えさかる妖狐 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
-	"route": "/緊急クエスト/燃えさかる妖狐",
-	"genres": ["緊急クエスト", "緊急B"],
-	"parentId": ["1000", "1002"]
-}
+{"id":"1025","title":"[緊急B] 燃えさかる妖狐","content":"## 概要\n- **サポート**: 妖狐チア (No.15084 そぅ…！)\n- **報酬**: 7000gold・妖気マテリアル×55\n- **敵構成**\n  - 狐火＋×6\n\n## キャラ構成\n- 囮:1 (攻撃速度13以上(※剣士の素の攻速は10)、開幕SP950以上)\n- 自由枠:3(剣士推奨)\n\n## 流れ\n- 囮：開幕根性ヲクラテレポヒスポ\n- 自由枠：適当に処理\n\n## 攻略動画\n<iframe src=\"https://www.youtube.com/embed/blrpx-aF05s\"\ntitle=\"燃えさかる妖狐 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>","route":"/緊急クエスト/燃えさかる妖狐","genres":["緊急クエスト","緊急B"],"parentId":["1000","1002"]}
