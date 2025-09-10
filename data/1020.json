@@ -1,8 +1,1 @@
-{
-	"id": "1020",
-	"title": "[緊急B] 海岸の防衛線",
-	"content": "## 概要\n- **サポート**: 伝杖迅雷チア( No.15091 上から来るぞ！気をつけろ / No.16762 凶兆の黒猫🐈‍⬛ )\n- **報酬**: 6500gold・中級マテリアル×55\n- **敵構成**\n  - 岩亀×3・クリオネ×1・薬オネ×1\n\n## キャラ構成\n- ビリサモ1 (開幕SP750↑)\n- 自由枠3\n\n## 流れ\n- 開幕ビリアクセルしてタゲを薬オネにする\n- 処理したあとは自由だが、真ん中の岩亀は残したほうがいい(処理後に雷が当たらない可能性がある)\n- 怖い場合は渦を入れればok\n\n## 攻略動画\n<iframe src=\"https://www.youtube.com/embed/WLwfELvtv9s\" \ntitle=\"海岸の防衛線 攻略\" \nframeborder=\"0\" \nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \nallowfullscreen>\n</iframe>",
-	"route": "/緊急クエスト/海岸の防衛線",
-	"genres": ["緊急クエスト", "緊急B"],
-	"parentId": ["1000", "1002"]
-}
+{"id":"1020","title":"[緊急B] 海岸の防衛線","content":"## 概要\n- **サポート**: 伝杖迅雷チア( No.15091 上から来るぞ！気をつけろ / No.16762 凶兆の黒猫🐈‍⬛ )\n- **報酬**: 6500gold・中級マテリアル×55\n- **敵構成**\n  - 岩亀×3・クリオネ×1・薬オネ×1\n\n## キャラ構成\n- ビリサモ1 (開幕SP750↑)\n- 自由枠3\n\n## 流れ\n- 開幕ビリアクセルしてタゲを薬オネにする\n- 処理したあとは自由だが、真ん中の岩亀は残したほうがいい(処理後に雷が当たらない可能性がある)\n- 怖い場合は渦を入れればok\n\n## 攻略動画\n<iframe src=\"https://www.youtube.com/embed/WLwfELvtv9s\" \ntitle=\"海岸の防衛線 攻略\" \nframeborder=\"0\" \nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" \nallowfullscreen>\n</iframe>","route":"/緊急クエスト/海岸の防衛線","genres":["緊急クエスト","緊急B"],"parentId":["1000","1002"]}

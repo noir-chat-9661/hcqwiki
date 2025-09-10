@@ -1,8 +1,1 @@
-{
-	"id": "1041",
-	"title": "[緊急S] 魔界の生物",
-	"content": "## 概要\n- **サポート**: 分連チア (No.15091 上から来るぞ！気をつけろ)\n- **報酬**: 15000gold・上級マテリアル×55\n- **敵構成**\n  - 魔菌×1・魔細胞×1・魔種×3\n\n## キャラ構成\n- 剣士：1 (物攻魔石 SP護石) ※フル☆6前提(☆4でもいいかも)\n  - ※行動は3にしておく\n- チア：2 (技術オーブ 技術護石) ※フル☆4以上前提\n- 元気：1 (開幕SP800以上)\n\n## 流れ\n- 剣士：魔細胞タゲ→SP溜まり次第神速汁B皿で処理→余裕があれば魔種処理\n- チア：開幕分連→ニョロ召喚→薔薇を祭りヒスポで消しつつ魔菌から処理\n- 元気：開幕守護茶→マジ茶連打\n\n## 攻略動画\n<iframe\nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/3eOljmpZ6WA\"\ntitle=\"魔界の生物 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>",
-	"route": "/緊急クエスト/魔界の生物",
-	"parentId": ["1000", "1004"],
-	"genres": ["緊急クエスト", "緊急S"]
-}
+{"id":"1041","title":"[緊急S] 魔界の生物","content":"## 概要\n- **サポート**: 分連チア (No.15091 上から来るぞ！気をつけろ)\n- **報酬**: 15000gold・上級マテリアル×55\n- **敵構成**\n  - 魔菌×1・魔細胞×1・魔種×3\n\n## キャラ構成\n- 剣士：1 (物攻魔石 SP護石) ※フル☆6前提(☆4でもいいかも)\n  - ※行動は3にしておく\n- チア：2 (技術オーブ 技術護石) ※フル☆4以上前提\n- 元気：1 (開幕SP800以上)\n\n## 流れ\n- 剣士：魔細胞タゲ→SP溜まり次第神速汁B皿で処理→余裕があれば魔種処理\n- チア：開幕分連→ニョロ召喚→薔薇を祭りヒスポで消しつつ魔菌から処理\n- 元気：開幕守護茶→マジ茶連打\n\n## 攻略動画\n<iframe\nwidth=\"560\"\nheight=\"315\"\nsrc=\"https://www.youtube.com/embed/3eOljmpZ6WA\"\ntitle=\"魔界の生物 攻略\"\nframeborder=\"0\"\nallow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\nallowfullscreen>\n</iframe>","route":"/緊急クエスト/魔界の生物","parentId":["1000","1004"],"genres":["緊急クエスト","緊急S"]}
