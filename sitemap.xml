@@ -136,4 +136,8 @@
     <loc>https://hcqwiki.pjeita.top/周回キャラ/魔石僧</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://hcqwiki.pjeita.top/サポートキャラ</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
