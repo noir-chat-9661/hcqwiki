@@ -140,4 +140,16 @@
     <loc>https://hcqwiki.pjeita.top/サポートキャラ</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://hcqwiki.pjeita.top/略語集</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hcqwiki.pjeita.top/よくある質問</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hcqwiki.pjeita.top/その他</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
